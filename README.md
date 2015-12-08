@@ -29,4 +29,21 @@ A controller is simply a class that is defined to inherit from
 `app/views/articles/new.html.erb`:
     <h1>New Articles</h1>
 
+## Form Builder
+    <%= form_for :article do |f| %>
+      <p>
+        <%= f.label :title %><br>
+        <%= f.text_field :title %>
+      </p>
+
+      <p>
+         <%= f.label :text %><br>
+         <%= f.text_area :text %>
+      </p>
+                          
+      <p>
+        <%= f.submit %>
+      </p>
+    <% end %>
+
 
