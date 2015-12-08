@@ -18,3 +18,15 @@ articles, people or animals.
 CRUD on resources
 
 `bin/rake routes`: define routes for all the standard RESTful actions
+
+## Adding Controllers
+`bin/rails generate controller articles`
+
+A controller is simply a class that is defined to inherit from 
+**ApplicationController**
+
+## Views
+`app/views/articles/new.html.erb`:
+    <h1>New Articles</h1>
+
+
