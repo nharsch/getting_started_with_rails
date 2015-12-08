@@ -40,10 +40,12 @@ A controller is simply a class that is defined to inherit from
          <%= f.label :text %><br>
          <%= f.text_area :text %>
       </p>
-                          
       <p>
         <%= f.submit %>
       </p>
     <% end %>
+
+## Models
+Creating models creates model_name.rb file and migration
 
 
