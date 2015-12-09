@@ -52,3 +52,10 @@ Creating models creates model_name.rb file and migration
 **strong parameters** tell Rails exactly which parameters are allowed into 
 out controller actions. Must whitelist controller parameters
 
+## Showing Articles
+add show method to ArticlesController
+
+add template
+
+
+
