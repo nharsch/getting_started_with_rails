@@ -48,4 +48,7 @@ A controller is simply a class that is defined to inherit from
 ## Models
 Creating models creates model_name.rb file and migration
 
+## Saving data in the controller
+**strong parameters** tell Rails exactly which parameters are allowed into 
+out controller actions. Must whitelist controller parameters
 

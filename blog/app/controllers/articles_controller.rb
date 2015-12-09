@@ -3,6 +3,16 @@ class ArticlesController < ApplicationController
     end
 
     def create
-        render plain: params[:article].inspect
+        # Captilized Article refers to class
+        @article = Article.new(article_params)
+
+        @article.save
+        redirect_to @article
     end
-end
+
+    private
+        def article_params
+            params.require(:article).permit(:title, :text)
+        end
+    end
+
