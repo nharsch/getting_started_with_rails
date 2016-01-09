@@ -1,5 +1,24 @@
 # Notes
 
+## DRY
+Every piece of knowledge must have a single,
+unambiguous, authoratative representation 
+whithin a system.
+
+## 3.2
+generator scripts
+
+`rails new blog` creates a Rails app called Blog in a 
+`blog` directory and install the gem dependencies
+that are already mentioned in `Gemfile` using `bundle install`
+
+## 4.1
+`$ bin/rails server`
+
+## 4.2 Hello World
+controller and view are minimum components for
+an app
+
 ## MVC
 A **controller's** purpose is to receive specific requests
 
@@ -11,9 +30,22 @@ View templates are written in **eRuby** by default
 
 **Routing** found in congi/routes.rb
 
-## Resources
+## 4.3 Route to Welcome
+add welcome to `config/routes.rb`
+    Rails.application.routes.draw do
+      get 'welcome/index'
+
+routing file uses DSL
+
+uncomment this line in `config/routes.rb`
+    root 'welcome#index'
+
+
+## 5 Resources
 **Resource** is the term used for a collection of similar objects, such as
 articles, people or animals.
+
+a REST resource
 
 CRUD on resources
 
@@ -48,6 +80,9 @@ A controller is simply a class that is defined to inherit from
 ## Models
 Creating models creates model_name.rb file and migration
 running migrations: `$ bin/rake db:migrate`
+
+**strong parameters**
+
 
 
 
