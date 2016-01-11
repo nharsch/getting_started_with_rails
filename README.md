@@ -86,6 +86,10 @@ of allowed parameters.
 
 ## Show action
 
+## 5.8 Listing articles
+index method listed first by convention
+
+
 
 
 
