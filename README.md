@@ -81,7 +81,10 @@ A controller is simply a class that is defined to inherit from
 Creating models creates model_name.rb file and migration
 running migrations: `$ bin/rake db:migrate`
 
-**strong parameters**
+**strong parameters** - requires explicit declaration
+of allowed parameters. 
+
+## Show action
 
 
 
