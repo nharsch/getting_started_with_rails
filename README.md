@@ -93,6 +93,10 @@ index method listed first by convention
 with model validations in place, model.save
 will return bool
 
+## 5.11 Updating Articles
+
+made form using PATCH http method
+
 
 
 
