@@ -89,6 +89,10 @@ of allowed parameters.
 ## 5.8 Listing articles
 index method listed first by convention
 
+##5.10
+with model validations in place, model.save
+will return bool
+
 
 
 
