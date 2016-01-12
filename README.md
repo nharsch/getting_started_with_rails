@@ -101,6 +101,8 @@ made form using PATCH http method
 
 ## 6.1
 
+## 6.2 Associating Models
+
 
 
 
