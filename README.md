@@ -99,7 +99,7 @@ made form using PATCH http method
 
 ## 5.12 Using **partials** to clean up duplication in views
 
-
+## 6.1
 
 
 
